@@ -42,6 +42,13 @@ Gambar terdiri atas:
 - Histogram dan metrik di bawah tiap gambar
 
 ## 📁 Struktur Folder
+clahe-enhancement-project/
+│
+├── images/ # CT scan input images
+├── results/ # Output hasil visualisasi
+├── clahe_utils.py # Fungsi pemrosesan dan evaluasi
+├── main.py # Eksekusi utama program
+├── README.md
 
 
 ## 📚 Referensi
