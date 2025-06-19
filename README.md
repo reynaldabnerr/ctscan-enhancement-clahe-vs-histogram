@@ -14,6 +14,12 @@ Dataset yang digunakan adalah **SARS-CoV-2 CT Scan Dataset** yang tersedia secar
 3. **Histogram Equalization (HE)** - peningkatan kontras global
 4. **CLAHE** - peningkatan kontras lokal dengan pembatasan
 
+## 🖼️ Contoh Hasil Visualisasi
+
+Gambar berikut menunjukkan perbandingan antara citra original, hasil sharpening, HE, dan CLAHE.
+
+![Hasil Visualisasi](results/comparison_Covid%20(1000).png)
+
 ## 📈 Evaluasi
 Metrik yang digunakan:
 - **Entropy** - mengukur kompleksitas informasi
@@ -40,16 +46,6 @@ Gambar terdiri atas:
 - Hasil HE
 - Hasil CLAHE
 - Histogram dan metrik di bawah tiap gambar
-
-## 📁 Struktur Folder
-clahe-enhancement-project/
-│
-├── images/ # CT scan input images
-├── results/ # Output hasil visualisasi
-├── clahe_utils.py # Fungsi pemrosesan dan evaluasi
-├── main.py # Eksekusi utama program
-├── README.md
-
 
 ## 📚 Referensi
 - Soares, Eduardo et al. (2020). SARS-CoV-2 CT-scan dataset: A large dataset of real patients CT scans for SARS-CoV-2 identification. medRxiv. [DOI](https://doi.org/10.1101/2020.04.24.20078584)
